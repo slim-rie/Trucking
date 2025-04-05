@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <link rel="stylesheet" href="sign_up.css">
+</head>
+<body>
+    <div class="container">
+        <h2>CREATE ACCOUNT:</h2>
+        <label>Employee ID:</label>
+        <input type="text" placeholder="Enter Employee ID">
+        <label>Username:</label>
+        <input type="text" placeholder="Enter Username">
+        <label>Password:</label>
+        <input type="password" placeholder="Enter Password">
+        <label>Position:</label>
+        <select>
+            <option>Driver</option>
+            <option>Porter</option>
+            <option>Client</option>
+            <option>Admin</option>
+        <label>Contact Number:</label>
+        <input type="text" placeholder="Enter Contact Number">
+        <label>Access:</label>
+        <select>
+            <option>Viewer/Upload</option>
+            <option>Can Edit</option>
+        </select>
+        <button onclick="createAccount()">CREATE</button>
+        <a href="index.html"><button>BACK</button></a>
+    </div>
+</body>
+<script>
+    function createAccount() {
+        alert("Account Created Successfully!");
+
+    }
+</script>
+</html>
